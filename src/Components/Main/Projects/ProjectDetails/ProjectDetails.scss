@@ -1,0 +1,76 @@
+.projectContainer {
+    border: 0.5px var(--linkInActive) solid;
+    width: 31.333%;
+    height: max-content;
+
+    &__imgConteiner {
+        height: 200px;
+
+        &-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+
+    &__role {
+        color: var(--linkInActive);
+        font-size: 16px;
+        display: block;
+        padding: 8px;
+        border-top: 0.5px var(--linkInActive) solid;
+        border-bottom: 0.5px var(--linkInActive) solid;
+    }
+
+    &__name {
+        font-size: 24px;
+        color: white;
+        padding: 8px 8px 8px 16px;
+    }
+
+    &__duration {
+        color: var(--linkInActive);
+        font-size: 16px;
+        padding: 8px;
+        margin-bottom: 16px;
+        display: block;
+        border-bottom: 0.5px var(--linkInActive) solid;
+    }
+
+    &__projTitle {
+        color: var(--white);
+        padding: 8px;
+    }
+
+    &__aboutProject {
+        color: var(--linkInActive);
+        padding: 8px;
+        display: block;
+    }
+
+    &__responsibilities {
+        color: white;
+        list-style-type: none;
+        margin: 8px;
+        padding: 0;
+
+        &-responsibiluty {
+            padding-top: 4px;
+            padding-left: 15px;
+            color: var(--linkInActive);
+
+            &::before {
+                content: "-";
+                display: inline-block;
+                width: 10px;
+                margin-left: -10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    .projectContainer {
+        width: 100%;
+    }
+}

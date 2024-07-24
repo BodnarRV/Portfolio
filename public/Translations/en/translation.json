@@ -1,0 +1,103 @@
+{    
+    "name": "Rostyslav",
+    "surname": "Bodnar",
+    "home": "home",
+    "works": "projects",
+    "aboutMe": "about-me",
+    "whoAmI": "Who am i?",
+    "contacts": "contacts",
+    "ITCourses": "courses",
+    "funFacts": "my-fun-facts",
+
+
+    "aboutMeTitle": "Hi, my name is Rostyslav and I`m <span style='color: #C778DD;'>iOS / Frontend Developer</span> from Ukraine",
+    "aboutMeSubtitle": "I`m creating websites and iOS apps where technologies meet creativity",
+    "contactMe": "Contact me !",
+    "currentWotk": "Currently open to work",
+    "quoteDrWho": "With great power comes great electricity bill",
+    "DrWho": "- Dr. Who",
+
+    "viewAll": "view all",
+    "iOSDev": "iOS Developer",
+    "fullstack": "FullStack Developer",
+    "frontDev": "Frontend Developer",
+    "responsibilities": "Responsibilities:",
+    "project": "Project:",
+
+    "maloName": "MALO",
+    "maloDuration": "Feb 2020 - Nov 2020",
+    "maloAbout": "An application in the restaurant domain where users can explore the menu and make an order.",
+    "maloResponsibilities":  "CEO, Managing, Product, Marketing;",
+    "maloResponsibilities2": "Creating the product structure;",
+    "maloResponsibilities3": "Developing.",
+
+    "devlightName": "Devlight",
+    "devlightDuration": "Dec 2019 - Dec 2020",
+    "devlightAbout": "Internal application for ERM which get an opportunity to see info about yourself and your colleagues.",
+    "devlightResponsibilities": "Developing.",
+
+    "softServeName": "SoftServe",
+    "softServeDuration": "Dec 2021 - Apr 2024",
+    "softServeAbout": "An application in health care domain",
+    "softServeResponsibilities1": "Developing and generating new features;",
+    "softServeResponsibilities2": "Fixing application bugs.",
+
+    "skills": "skills",
+    "skillsTitleLanguage": "Languages",
+    "skillsTitleDataBase": "DataBase",
+    "skillsTitleTools": "Tools",
+    "skillsTitleOther": "Other",
+    "skillsTitleFrameworks": "Frameworks",
+
+    "skillsLanguages": "Objective-C, Swift, SwiftUI, JavaScript, Ruby",
+    "skillsDataBase": "Firebase",
+    "skillsTools": "Postman, GIT, JIRA, RubyMine, Xcode, VS Code",
+    "skillsOther": "OOP, SOLID, Amplitude, Piwik, GoogleSignIn, FBSDKLogin",
+    "skillsFrameworks": "UIKit, Foundation, Alamofire, React.js, HTML, CSS, SCSS",
+
+    "aboutMeText": " Hello, my name is Rostyslav!<br><br><br> In 2019, I began my journey at Dewlight as a Swift trainee. Following my training, I successfully interviewed for a Junior iOS Developer position and started working on the company's project, Devlight ERM. This application, designed for company employees, provides information about the company, vacation tracking, project histories, company news, and more. I was the sole developer on this project.<br><br>  Concurrently, my friends and I initiated a startup project called Malo, an app for restaurants. This app allows users to place orders, make payments, leave feedback for restaurants and staff, and track their favorite places and foods. My primary contribution to this project was creating the user interface.<br><br>  After my time at Dewlight, I joined SoftServe and worked there for 2 years on a project in the healthcare domain. My responsibilities included providing new features, fixing bugs, and occasionally refactoring code.",
+    "readMore": "Read more",
+
+    "contactsText": "I’m interested in full-time iOS/Frontend opportunities. However, if you have other request or question, don't hesitate to contact me",
+    "messageME": "Message me here",
+
+    "footerAboutText": "iOS and Frontend developer",
+    "media": "Media",
+
+    "myExperience": "my-experience",
+    "projectsSubtitle": "List of my works and companies I worked in",
+    "companies": "companies",
+    "myWebProjects": "my-web-projects",
+
+    "personalProject": "Personal project",
+    "sideProjectTime": "days",
+    "viweGitHub": "View on GitHub",
+
+    "monblanprojectAbout": "Completed as a test task for one company.",
+    "monblanprojectResponsibilities": "Full development cycle.",
+
+    "moviesAbout": "As a movie fan, it was my first significant project as a Frontend Developer.",
+    "typeMasterAbout": "I was looking for a new keyboard, found one I liked, and decided to copy the web design of the description for this keyboard.",
+    "spaceLanceAbout": "One of the projects that I developed based on a free Figma design",
+    "productAbout": "Small project: product preview card. It was a task from a free YouTube course.",
+    "portfolioAbout": "My portfolio. Here you can see basic information about myself. The project will always be in progress because every day I'm trying to improve.",
+    "inProgress": "In progress",
+    "student": "Student",
+    "viewGoIT": "Courses website",
+    "learnTogether": "Let's learn together",
+    "learnTogetherAbour": "One of the best Frontend Ukrainian courses for beginners on YouTube",
+
+    "funFact1": "I like winter more than summer",
+    "funFact2": "I often snowboard with my friends",
+    "funFact3": "I like <span style='color: #fff;'>pizza</span> and <span style='color: #fff;'>pasta</span>",
+    "funFact4": "I was in <span style='color: #fff;'>Egypt</span>, <span style='color: #fff;'>Poland</span>, <span style='color: #fff;'>Germany</span> and <span style='color: #fff;'>Turkey</span>",
+    "funFact5": "My favorite movies are <span style='color: #fff;'>Lord of The Rings</span>, <span style='color: #fff;'>Hobbit</span> and <span style='color: #fff;'>Harry Potter</span>",
+    "funFact6": "My dream car is Lamborgini Urus",
+    "funFact7": "I worked as a hookah master for 4 years.",
+    "funFact8": "I love building LEGO",
+
+    "letsTalk": "Let's talk?"
+  }
+
+
+  

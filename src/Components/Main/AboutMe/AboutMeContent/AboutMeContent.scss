@@ -1,0 +1,40 @@
+.content {
+    &__aboutMeContent {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 27px;
+
+        &-aboutMe{
+            color: var(--linkInActive);
+        }
+
+        &-btn {
+            font-size: 16px;
+            padding: 8px 16px;
+            width: max-content;
+        }
+    }
+
+    &__aboutMeIgm {
+        position: absolute;
+
+        &-img{
+            position: relative;
+            top: -540px;
+            right: -691px;
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    .content {
+        &__aboutMeContent {
+            width: 100%;
+        }
+    
+        &__aboutMeIgm {
+            display: none;
+        }
+    }
+}

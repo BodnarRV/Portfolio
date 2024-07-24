@@ -1,0 +1,30 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --mainBackground: #282C33;
+    --linkInActive: #ABB2BF;
+    --primary: #C778DD;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    &__line {
+        width: 24px;
+        height: 3px;
+        background-color: var(--linkInActive);
+        margin: 3px 0;
+        transition: all 0.3s ease;
+
+        &--top {
+            width: 24px;
+            align-items: center;
+        }
+
+        &--bottom {
+            width: 16px;
+        }
+    }
+}

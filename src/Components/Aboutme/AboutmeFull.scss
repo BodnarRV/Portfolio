@@ -1,0 +1,38 @@
+.skills {
+    display: flex;
+    gap: 16px;
+    margin-top: 48px;
+}
+
+.funFactsContqainer {
+    display: flex;
+}
+
+.funFacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 85%;
+    margin-top: 26px;
+
+    &__fact {
+        border: 1px var(--linkInActive) solid;
+        color: var(--linkInActive);
+        width: max-content;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 840px) {
+    .skills {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .funFactsContqainer {
+        &__image {
+            display: none;
+        }
+    }
+}

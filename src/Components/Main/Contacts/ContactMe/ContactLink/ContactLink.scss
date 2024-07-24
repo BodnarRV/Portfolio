@@ -1,0 +1,22 @@
+ 
+    .contactLink {
+        display: flex;
+        text-decoration: none;
+        color: var(--linkInActive);
+        transition: color 0.3s ease;
+        
+        &:hover {
+          color: var(--primary)
+        }
+        
+        &__img {
+          width: 24px;
+          height: 24px;
+          margin-right: 10px;
+          vertical-align: middle;
+        }
+  
+        &:not(:last-child) {
+          margin-bottom: 5px;
+        }
+      }

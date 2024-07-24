@@ -1,0 +1,16 @@
+.containerLogo {
+    display: flex;
+    align-items: center;
+
+    &__image {
+        margin-right: 12px;
+    }
+
+    &__text {
+        color: white;
+        font-family: "Fira Code";
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 20px;
+    }
+}

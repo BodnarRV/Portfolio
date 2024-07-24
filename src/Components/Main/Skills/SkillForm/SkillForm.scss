@@ -1,0 +1,34 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --mainBackground: #282C33;
+    --linkInActive: #ABB2BF;
+    --primary: #C778DD;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    width: 30%;
+    height: auto;
+
+    &__title {
+        color: white;
+        border: 0.5px var(--linkInActive) solid;
+        padding: 5px;
+    }
+
+    &__text {
+        color: var(--linkInActive);
+        border: 0.5px var(--linkInActive) solid;
+        border-top: none;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 840px) {
+    .formContainer {
+        width: 100%;
+    }
+}

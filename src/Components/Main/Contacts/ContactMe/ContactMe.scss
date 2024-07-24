@@ -1,0 +1,18 @@
+.contactMeContainer {
+    padding: 16px;
+    border: 0.5px var(--linkInActive) solid;
+    
+    &__title {
+      margin-bottom: 16px;
+      font-size: 16px;
+      color: white;
+    }
+
+  }
+
+  @media (max-width: 840px) {
+    .contactMeContainer {
+        width: max-content;
+        margin-top: 16px;
+    }
+  }

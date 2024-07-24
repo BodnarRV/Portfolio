@@ -1,0 +1,33 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --mainBackground: #282C33;
+    --linkInActive: #ABB2BF;
+    --primary: #C778DD;
+}
+
+.container {
+    &__projects {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 12px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 840px) {
+    .container {
+        &__header {
+            &-line {
+                height: 1px;
+                width: 50%;
+                background-color: var(--primary);
+            }    
+        }
+
+        &__projects  {
+            flex-direction: column;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --mainBackground: #282C33;
+    --linkInActive: #ABB2BF;
+    --primary: #C778DD;
+}
+
+.container {
+    &__aboutMe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+
+        &-title {
+            color: white;
+            font-size: 32px;
+            margin-bottom: 32px;
+        }
+
+        &-text {
+            font-size: 16px;
+            color: var(--linkInActive);
+            margin-bottom: 24px;
+        }
+
+        &-btn {
+            font-size: 16px;
+            width: auto;
+            max-width: max-content;
+            text-align: center; 
+            padding: 9px;
+        }
+    }
+
+    &__aboutMePhoto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 40%;
+
+        &-logo {
+            position: absolute;
+            right: 300px;
+
+        }
+        &-img {
+            z-index: 1;
+        }
+
+        &-dots {
+            position: absolute;
+            right: 10px;
+            top: 275px;
+            z-index: 1;
+        }
+
+        &-currentWork {
+            display: flex;
+            justify-content: flex-start;
+            border: 1px var(--linkInActive) solid;
+            margin-top: 27px;
+            padding: 10px;
+            color: white;
+            width: 402px;
+
+            &-square {
+                height: 16px;
+                width: 16px;
+                margin-right: 10px;
+                background-color: var(--primary);
+            }
+        }
+    }
+}
+
+@media (max-width: 840px) {
+    .container {
+        &__aboutMe {
+            width: 100%;
+        }
+
+        &__aboutMePhoto {
+            width: 100%;
+        }
+    }
+}

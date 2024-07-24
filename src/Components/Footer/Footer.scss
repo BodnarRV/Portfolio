@@ -1,0 +1,32 @@
+.footer {
+    margin-top: 90px;
+    border-top: 0.5px var(--linkInActive) solid;
+
+    &__copyright {
+        color: var(--linkInActive);
+        text-align: center;
+        margin-bottom: 32px;
+    }
+}
+
+.container {
+    &__about {
+        &-text {
+            margin-top: 16px;
+            color: white;
+        }
+    }
+
+    &__media{
+        &-title {
+            color: white;
+            font-size: 24px;
+        }
+
+        &-contacts {
+            display: flex;
+            gap: 8px;
+            margin-top: 16px;
+        }
+    }
+}
